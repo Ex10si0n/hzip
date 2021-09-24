@@ -4,7 +4,16 @@ What is `hzip`
 
 it is a cli software for zipping files with HuffmanTree Coding. the `huffman_coding.py` is a demo of the tree building and text encoding
 
-Demo:
+## How to use
+```bash
+# Zip a file
+hzip files
+
+# Extract a file
+hzip -x files.hzip
+```
+
+# Demo of Huffman Coding:
 
 ```python
  py huffman_coding.py
@@ -19,3 +28,4 @@ Encode:
 Decode:
     call decoder(): The quick brown fox jumped over the lazy dog
 ```
+
